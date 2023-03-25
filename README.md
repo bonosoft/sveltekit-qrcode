@@ -16,9 +16,7 @@ Now you can start adding QR Codes to your pages.
 <QRCode content="Test"></QRCode>
 ```
 
-[sample1]
 ![Alt text](https://github.com/bonosoft/sveltekit-qrcode/blob/bfe7e6742816a97fa2712295033ef9011046773d/readme/sample1.svg?sanitize=true)
-<img src="https://github.com/bonosoft/sveltekit-qrcode/blob/bfe7e6742816a97fa2712295033ef9011046773d/readme/sample1.svg"" alt="QR Code sample 1" width="150px" height="150px" />
 
 # Quick Response Codes
 While conventional bar codes are capable of storing a maximum of approximately 20 digits, QR Code is capable of handling several dozen to several hundred times more information.
@@ -54,7 +52,8 @@ With the colour settings, you can control both the front and background colour.
 <QRCode color="#ffffff" bgcolor="#009900" content="https://www.bonosoft.dk/"/>
 ```
 
-[Sample2]
+![Alt text](https://github.com/bonosoft/sveltekit-qrcode/blob/86ae32abc4460e78fd3e60acefab5f072aed1b24/readme/sample2.svg?sanitize=true)
+
 ## QR Code error correction
 QR Code has error correction capability to restore data if the code is dirty or damaged. Four error correction levels are available for users to choose according to the operating environment. Raising this level improves error correction capability but also increases the amount of data QR Code size.
 To select error correction level, various factors such as the operating environment and QR Code size need to be considered. Level Q or H may be selected for factory environment where QR Code get dirty, whereas Level L may be selected for clean environment with the large amount of data. Typically, Level M (15%) is most frequently selected.
@@ -80,3 +79,4 @@ Sample URL for a John Doe user on the Acme app:
 <QRCode content="otpauth://totp/ACME%20Co:john.doe@email.com?secret=HXDMVJECJJWSRB3HWIZR4IFUGFTMXBOZ&issuer=ACME%20Co&algorithm=SHA1&digits=6&period=30"/>
 ```
 
+![Alt text](https://github.com/bonosoft/sveltekit-qrcode/blob/86ae32abc4460e78fd3e60acefab5f072aed1b24/readme/sample3.svg?sanitize=true)
