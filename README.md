@@ -6,7 +6,7 @@ Use your package manager to install the module:
 npm install @bonosoft/sveltekit-qrcode
 ```
 
-## Use in a svelte file in SvelteKit
+## Adding QR Codes to a svelte file in SvelteKit
 Now you can start adding QR Codes to your pages.
 ```ts
 <script lang="ts">
