@@ -17,6 +17,7 @@ Now you can start adding QR Codes to your pages.
 ```
 
 [sample1]
+<img src="https://github.com/bonosoft/sveltekit-qrcode/blob/bfe7e6742816a97fa2712295033ef9011046773d/readme/sample1.svg"" alt="QR Code sample 1" width="150px" height="150px" />
 
 # Quick Response Codes
 While conventional bar codes are capable of storing a maximum of approximately 20 digits, QR Code is capable of handling several dozen to several hundred times more information.
