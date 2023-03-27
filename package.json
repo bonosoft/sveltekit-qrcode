@@ -27,12 +27,11 @@
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build && npm run package",
-		"preview": "vite preview",
 		"package": "svelte-kit sync && svelte-package && publint",
 		"prepublishOnly": "npm run package",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
-		"publish": "npm publish"
+		"publish": "npm publish -access public"
 	},
 	"exports": {
 		".": {
