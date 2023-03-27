@@ -1,7 +1,7 @@
 {
 	"name": "@bonosoft/sveltekit-qrcode",
 	"description": "QR Code generator component for SvelteKit",
-	"version": "0.0.3",
+	"version": "1.0.0",
 	"author": "Bonosoft",
 	"license": "MIT",
 	"repository": {
